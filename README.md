@@ -3,16 +3,17 @@
 
 
 # 文件结构
-mllm
- ┣ video 经过切分处理的短视频
- ┃ ┣ segment_1.mp4
- ┃ ┣ ...
- ┃ ┗ segment_9.mp4
- ┣ input.mp4 输入视频
- ┣ split.py 视频切分，固定5s切一个视频
- ┣ video_descriptions.db 存储抽取的视频信息
- ┗ video_interpre.py 视频信息抽取主文件
-
+```mermaid
+flowchart TD
+    A[mllm] --> B[/video/]
+    B --> C(segment_1.mp4)
+    B --> D(...)
+    B --> E(segment_9.mp4)
+    A --> F(input.mp4)
+    A --> G(split.py)
+    A --> H(video_descriptions.db)
+    A --> I(video_interpre.py)
+```
 
  # 输入视频
 
