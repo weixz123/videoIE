@@ -3,7 +3,7 @@
 
 
 # 文件结构
-```mermaid
+```
 mllm
  ┣ video 经过切分处理的短视频
  ┃ ┣ segment_1.mp4
