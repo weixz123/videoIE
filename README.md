@@ -3,17 +3,15 @@
 
 
 # 文件结构
-```mermaid
-flowchart TD
-    A[mllm] --> B[/video/]
-    B --> C(segment_1.mp4)
-    B --> D(...)
-    B --> E(segment_9.mp4)
-    A --> F(input.mp4)
-    A --> G(split.py)
-    A --> H(video_descriptions.db)
-    A --> I(video_interpre.py)
-```
+mllm
+├── video
+│   ├── segment_1.mp4
+│   ├── ...
+│   └── segment_9.mp4
+├── input.mp4
+├── split.py
+├── video_descriptions.db
+└── video_interpre.py
 
  # 输入视频
 
